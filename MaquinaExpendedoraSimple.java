@@ -65,7 +65,10 @@ public class MaquinaExpendedoraSimple {
         this.precioBillete = precioBillete;
     } 
     
-    public void setRestaPrecioBillete(int precioBillete) {
+    /**
+     * Resta una cantidad a el precio del billete
+     */
+    public void RestarPrecioBillete(int precioBillete) {
         this.precioBillete -= precioBillete;
     }
    
